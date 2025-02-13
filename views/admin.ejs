@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Admin</title>
+     </head>
+     <body>
+
+          <h1>Admin Page</h1>
+          <h3>Order History:</h3>
+
+          <div>
+
+               <% for (let i = 0; i < orders.length; i++) { %>
+                    <p><b>Order #<%= i %></b></p>
+                    <ul>
+                         <li><%= orders[i].name %></li>
+                         <li><%= orders[i].email %></li>
+                         <li><%= orders[i].flavor %></li>
+                         <li><%= orders[i].cones %></li>
+                         <li><%= orders[i].toppings %></li>
+                         <li><%= orders[i].comment %></li>
+                         <hr>
+                    </ul>
+               <% } %>
+
+          </div>
+
+     </body>
+
+</html>
