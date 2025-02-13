@@ -1,0 +1,78 @@
+label {
+     display: block;
+     margin: 1rem 0 1rem 0;
+}
+
+body {
+     background-color: lightpink;
+}
+
+h1{
+     font-family: sans-serif;
+     text-align: center;
+}
+
+#main{
+     background-color: white;
+     width: 50%;
+     margin: 1rem auto 1rem auto;
+     padding: 1em;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+button {
+     margin: 1rem auto 1rem auto;
+     background-color: brown;
+     color: white;
+     font-size: larger;
+     padding: .5rem .75rem;
+     width: 100%;
+}
+
+img {
+     max-width: 200px;
+}
+
+textarea {
+     width: 100%;
+}
+
+#name {
+     width: 100%;
+}
+
+fieldset {
+     background-color: lightblue;
+}
+
+legend {
+     font-weight: bold;
+}
+
+#flavor {
+     width: 100%;
+}
+
+#name {
+     width: 100%;
+}
+
+#email {
+     width: 100%;
+}
+
+#cones {
+     display: flex;
+     flex-wrap: nowrap;
+}
+
+#toppings {
+     display: flex;
+     flex-wrap: nowrap;
+}
+
+p {
+     margin: 0 0 0 0;
+}
